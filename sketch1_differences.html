@@ -25,18 +25,31 @@
 
             <nav id="sidebar">
                 <div class="sidebar-header">
-                      <div id="sidebarCollapse" >
+                      <a href="index.html">
                         <h6><em>for (let you = 90)</em></h6>
-                        <strong> } </strong>
-                      </div>
+                      </a>
                 </div>
 
                 <ul class="list-unstyled components">
                     <li class = "hoverYellow">
-                        <a href="sketch1_differences.html">
+                        <a href="#oneSubmenu" data-toggle="collapse" style="color:#f2e703;" aria-expanded="false">
                             { 1 } differences
                         </a>
+
+                        <ul class="collapse list-unstyled" id="oneSubmenu">
+                            <li style="font-family: 'EB Garamond', serif;  serif; font-size:.7em !important;">
+                                <a href="#" >
+                                        only long after then
+                                  </br> it dawned on me
+                                  </br>we were each other’s cages
+                                </a>
+                            </li>
+                            <li class="hoverYellow" style="font-family: 'EB Garamond', serif; font-size:.7em !important; font-style: italic;">
+                              <a href="#">beginning of an end</a>
+                            </li>
+                        </ul>
                     </li>
+
                     <li class = "hoverBlue">
                         <a href="sketch2_in_venn.html">
                           { 2 } in venn
@@ -48,15 +61,6 @@
                         </a>
                     </li>
                 </ul>
-
-                <div class="sidebar-header">
-                      <div id="sidebarCollapse" >
-                        <div class = "descriptionWrapper">
-                          <h6 style="font-family: 'EB Garamond', serif !important;"><em>for (let you = 90)</em> is a conceptual project that parallels code with motion and emotions. longing. letting go. looking inwards. let(’s) go.</h6>
-
-                        </div>
-                      </div>
-                </div>
             </nav>
 
 
@@ -64,8 +68,8 @@
             <div class="navbar-fixed-top">
                 <!-- <div class="navbar"> -->
                   <div class="navbar-header">
-                    <a class="navbar-brand" href="#" style="font-size:1em;"><em>for (let you = 90)</em></a>
-                    <a class="navbar-brand" href="sketch1_differences.html">{ 1 }</a>
+                    <a class="navbar-brand" href="index.html" style="font-size:1em;"><em>for (let you = 90)</em></a>
+                    <a class="navbar-brand" href="#" style="color:#f2e703;">{ 1 }</a>
                     <a class="navbar-brand" href="sketch2_in_venn.html">{ 2 }</a>
                     <a class="navbar-brand" href="sketch3_justification.html">{ 3 }</a>
                   </div>
@@ -74,7 +78,7 @@
 
             <div id="content">
 
-                <canvas id = "sketchHome" data-processing-sources="homeSketch/homeSketch.pde"></canvas>
+                <canvas id = "sketchHome" data-processing-sources="sketch_001_differences/sketch_001_differences.pde"></canvas>
 
             </div>
 

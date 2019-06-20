@@ -24,39 +24,44 @@
             <!-- Sidebar Holder -->
 
             <nav id="sidebar">
-                <div class="sidebar-header">
-                      <div id="sidebarCollapse" >
-                        <h6><em>for (let you = 90)</em></h6>
-                        <strong> } </strong>
-                      </div>
-                </div>
+              <div class="sidebar-header">
+                    <a href="index.html">
+                      <h6><em>for (let you = 90)</em></h6>
+                    </a>
+              </div>
 
                 <ul class="list-unstyled components">
-                    <li class = "hoverYellow">
-                        <a href="sketch1_differences.html">
-                            { 1 } differences
-                        </a>
-                    </li>
-                    <li class = "hoverBlue">
-                        <a href="sketch2_in_venn.html">
+                  <li class = "hoverYellow">
+                      <a href="sketch1_differences.html">
+                          { 1 } differences
+                      </a>
+                  </li>
+
+                  <li>
+                      <a href="#oneSubmenu" data-toggle="collapse" style="color:#005CE5;" aria-expanded="false">
                           { 2 } in venn
-                        </a>
-                    </li>
+                      </a>
+
+                      <ul class="collapse list-unstyled" id="oneSubmenu" >
+                          <li style="font-family: 'EB Garamond', serif;  serif; font-size:.7em !important;" >
+                              <a href="#" >
+                                      blood sweat and tears
+                                </br> nothing to gain but pain
+                                </br> all these years
+                                </br>was only in vein
+                              </a>
+                          </li>
+                          <li class="hoverBlue" style="font-family: 'EB Garamond', serif; font-size:.7em !important; font-style: italic;">
+                            <a href="#">beginning of an end</a>
+                          </li>
+                      </ul>
+                  </li>
                     <li class= "hoverRed">
                         <a href="sketch3_justification.html">
                           { 3 } justification
                         </a>
                     </li>
                 </ul>
-
-                <div class="sidebar-header">
-                      <div id="sidebarCollapse" >
-                        <div class = "descriptionWrapper">
-                          <h6 style="font-family: 'EB Garamond', serif !important;"><em>for (let you = 90)</em> is a conceptual project that parallels code with motion and emotions. longing. letting go. looking inwards. let(’s) go.</h6>
-
-                        </div>
-                      </div>
-                </div>
             </nav>
 
 
@@ -64,17 +69,17 @@
             <div class="navbar-fixed-top">
                 <!-- <div class="navbar"> -->
                   <div class="navbar-header">
-                    <a class="navbar-brand" href="#" style="font-size:1em;"><em>for (let you = 90)</em></a>
+                    <a class="navbar-brand" href="index.html" style="font-size:1em;"><em>for (let you = 90)</em></a>
                     <a class="navbar-brand" href="sketch1_differences.html">{ 1 }</a>
-                    <a class="navbar-brand" href="sketch2_in_venn.html">{ 2 }</a>
-                    <a class="navbar-brand" href="sketch3_justification.html">{ 3 }</a>
+                    <a class="navbar-brand" href="#" style="color:#005CE5;">{ 2 }</a>
+                    <a class="navbar-brand" href="sketch3_justification.html">{ 2 }</a>
                   </div>
                 <!-- </div> -->
               </div>
 
             <div id="content">
 
-                <canvas id = "sketchHome" data-processing-sources="homeSketch/homeSketch.pde"></canvas>
+                <canvas id = "sketchHome" data-processing-sources="sketch_002_in_venn/sketch_002_in_venn.pde"></canvas>
 
             </div>
 
